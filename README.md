@@ -10,4 +10,4 @@ Tasks:
 
 Final result:
 
-![image](https://user-images.githubusercontent.com/7382939/139096823-58a4dd1a-a401-48fa-abf6-865fd16d170a.png)
+![image](https://user-images.githubusercontent.com/7382939/139099657-902d4067-62ce-4e7e-9c74-49a37a9408d4.png)
