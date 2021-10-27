@@ -26,7 +26,8 @@ class ArticleAdapter : ListAdapter<Article, ArticleAdapter.ArticleHolder>(diff) 
     override fun onBindViewHolder(holder: ArticleHolder, position: Int) {
         holder.itemView.run {
             val item = getItem(position)
-            findViewById<TextView>(R.id.author).text = item.author
+            findViewById<TextView>(R.id.author).text =
+                context.getString(R.string.article_author_name, item.author)
             findViewById<TextView>(R.id.title).text = item.title
             findViewById<TextView>(R.id.description).text = item.description
         }

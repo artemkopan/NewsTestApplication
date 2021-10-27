@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">News Application</string>
+
+    <string name="article_author_name">Author: %s</string>
 </resources>
