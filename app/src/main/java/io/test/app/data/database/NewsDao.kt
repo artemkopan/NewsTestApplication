@@ -47,6 +47,8 @@ class NewsDao(
     fun insert(articles: List<ArticleEntity>) {
         val db = dbHelper.writableDatabase
 
+        db.beginTransaction()
+
         articles.forEach {
             val contentValues = ContentValues()
             contentValues.put(dbHelper.columnAuthor, it.author)
@@ -60,5 +62,7 @@ class NewsDao(
                 SQLiteDatabase.CONFLICT_REPLACE
             )
         }
+
+        db.endTransaction()
     }
 }
