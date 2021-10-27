@@ -28,13 +28,6 @@ class NewsActivity : AppCompatActivity() {
         val adapter = ArticleAdapter()
         findViewById<RecyclerView>(R.id.news_recycler).apply {
             this.adapter = adapter
-            addItemDecoration(ArticleItemDecoration(resources))
-            addItemDecoration(
-                DividerItemDecoration(
-                    this@NewsActivity,
-                    DividerItemDecoration.VERTICAL
-                )
-            )
         }
         viewModel
             .newsItems
