@@ -1,12 +1,14 @@
 News test application
 
 Tasks:
-1. Implement repository which combines network and local data source
-2. Show cached list if network is off 
-3. Show toast message if network is off
-4. Optimize Database insert transaction
-5. Fix news item layout
-6. Add spaces in recyclerview items
+1. Create viewmodel
+2. Implement loading api data from `NewsApiService`
+3. Fix news item layout and show data from api service
+4. Implement repository which combines network and local data source
+5. Show cached list if network is off 
+6. Show toast message if network is off
+7. Optimize Database insert transaction
+8. Add spaces in recyclerview items
 
 Final result:
 
